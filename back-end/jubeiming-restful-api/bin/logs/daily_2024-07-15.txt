@@ -1,0 +1,202 @@
+[2024-07-15 08:05:53.756] [daily_logger] [info] 日志初始化完成
+[2024-07-15 08:05:53.896] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 08:05:53.896] [daily_logger] [info] Redis初始化完成
+[2024-07-15 08:05:53.896] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 08:05:53.896] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 08:05:54.103] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 08:05:54.103] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 08:05:54.103] [daily_logger] [info] client相关完成加载
+[2024-07-15 08:05:54.103] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 08:05:54.103] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 08:05:58.384] [daily_logger] [info] ID:0x7fe73c005af0 => 微信小程序流程
+[2024-07-15 08:05:58.412] [daily_logger] [info] ID:0x7fe73c005af0 / Login Code: 0b3MMDFa1yI5OH0NpDGa1uRkhY0MMDFA / Phone Number Code: 0fdd63a5bdce563ae64901aa5f64b7b90f34fe4807724e6dd74748de67ecbc71
+[2024-07-15 08:06:09.466] [daily_logger] [info] ID:0x7fe704001cc0 => 微信小程序流程
+[2024-07-15 08:06:09.494] [daily_logger] [info] ID:0x7fe704001cc0 / Login Code: 0b3MMDFa1yI5OH0NpDGa1uRkhY0MMDFA / Phone Number Code: 0fdd63a5bdce563ae64901aa5f64b7b90f34fe4807724e6dd74748de67ecbc71
+[2024-07-15 08:06:10.337] [daily_logger] [info] ID:0x7fe704001cc0 => 微信授权通过
+[2024-07-15 08:06:10.521] [daily_logger] [info] ID:0x7fe704001cc0 => 账户添加完成
+[2024-07-15 08:51:22.912] [daily_logger] [info] 日志初始化完成
+[2024-07-15 08:51:23.037] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 08:51:23.037] [daily_logger] [info] Redis初始化完成
+[2024-07-15 08:51:23.037] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 08:51:23.037] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 08:51:23.201] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 08:51:23.201] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 08:51:23.201] [daily_logger] [info] client相关完成加载
+[2024-07-15 08:51:23.202] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 08:51:23.202] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 09:12:01.209] [daily_logger] [info] 日志初始化完成
+[2024-07-15 09:12:01.338] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 09:12:01.338] [daily_logger] [info] Redis初始化完成
+[2024-07-15 09:12:01.339] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 09:12:01.339] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 09:12:01.500] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 09:12:01.500] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 09:12:01.500] [daily_logger] [info] client相关完成加载
+[2024-07-15 09:12:01.500] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 09:12:01.500] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 11:04:01.095] [daily_logger] [info] 日志初始化完成
+[2024-07-15 11:04:14.481] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 11:04:14.481] [daily_logger] [info] Redis初始化完成
+[2024-07-15 11:04:14.481] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 11:04:14.481] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 11:04:14.655] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 11:04:14.655] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 11:04:14.655] [daily_logger] [info] client相关完成加载
+[2024-07-15 11:04:14.655] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 11:04:14.655] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 11:04:26.679] [daily_logger] [info] 日志初始化完成
+[2024-07-15 11:04:26.849] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 11:04:26.849] [daily_logger] [info] Redis初始化完成
+[2024-07-15 11:04:26.849] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 11:04:26.849] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 11:04:27.015] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 11:04:27.015] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 11:04:27.015] [daily_logger] [info] client相关完成加载
+[2024-07-15 11:04:27.015] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 11:04:27.015] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 11:36:17.385] [daily_logger] [info] 日志初始化完成
+[2024-07-15 11:36:17.563] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 11:36:17.563] [daily_logger] [info] Redis初始化完成
+[2024-07-15 11:36:17.563] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 11:36:17.563] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 11:36:17.731] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 11:36:17.731] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 11:36:17.731] [daily_logger] [info] client相关完成加载
+[2024-07-15 11:36:17.731] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 11:36:17.731] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 11:36:32.633] [daily_logger] [info] 日志初始化完成
+[2024-07-15 11:36:32.760] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 11:36:32.760] [daily_logger] [info] Redis初始化完成
+[2024-07-15 11:36:32.760] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 11:36:32.760] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 11:36:32.926] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 11:36:32.926] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 11:36:32.926] [daily_logger] [info] client相关完成加载
+[2024-07-15 11:36:32.926] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 11:36:32.926] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 12:39:00.428] [daily_logger] [info] 日志初始化完成
+[2024-07-15 12:39:00.554] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 12:39:00.554] [daily_logger] [info] Redis初始化完成
+[2024-07-15 12:39:00.554] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 12:39:00.554] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 12:39:00.718] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 12:39:00.718] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 12:39:00.718] [daily_logger] [info] client相关完成加载
+[2024-07-15 12:39:00.718] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 12:39:00.718] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 12:41:09.100] [daily_logger] [info] 日志初始化完成
+[2024-07-15 12:41:09.220] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 12:41:09.220] [daily_logger] [info] Redis初始化完成
+[2024-07-15 12:41:09.220] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 12:41:09.220] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 12:41:09.383] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 12:41:09.383] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 12:41:09.383] [daily_logger] [info] client相关完成加载
+[2024-07-15 12:41:09.383] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 12:41:09.383] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 12:47:44.325] [daily_logger] [info] 日志初始化完成
+[2024-07-15 12:47:44.444] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 12:47:44.444] [daily_logger] [info] Redis初始化完成
+[2024-07-15 12:47:44.444] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 12:47:44.444] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 12:47:44.610] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 12:47:44.610] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 12:47:44.610] [daily_logger] [info] client相关完成加载
+[2024-07-15 12:47:44.610] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 12:47:44.610] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 12:47:53.109] [daily_logger] [info] 日志初始化完成
+[2024-07-15 12:47:53.230] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 12:47:53.231] [daily_logger] [info] Redis初始化完成
+[2024-07-15 12:47:53.231] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 12:47:53.231] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 12:47:53.396] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 12:47:53.396] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 12:47:53.396] [daily_logger] [info] client相关完成加载
+[2024-07-15 12:47:53.396] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 12:47:53.396] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 14:10:36.666] [daily_logger] [info] 日志初始化完成
+[2024-07-15 14:10:36.785] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 14:10:36.785] [daily_logger] [info] Redis初始化完成
+[2024-07-15 14:10:36.785] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 14:10:36.785] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 14:10:36.969] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 14:10:36.969] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 14:10:36.969] [daily_logger] [info] client相关完成加载
+[2024-07-15 14:10:36.969] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 14:10:36.969] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 14:10:37.784] [daily_logger] [info] ID:0x7fcd38005af0 => 微信小程序流程
+[2024-07-15 14:10:37.811] [daily_logger] [info] ID:0x7fcd38005af0 / Login Code: 0f3MHl0w36QG833yqi3w3vQCbU1MHl0d / Phone Number Code: ed88f535ab444238f818f5fbd79591365a17fcec7834963b1c5292a8f287fef9
+[2024-07-15 14:10:38.614] [daily_logger] [info] ID:0x7fcd38005af0 => 微信授权通过
+[2024-07-15 14:10:38.819] [daily_logger] [info] ID:0x7fcd38005af0 => 账户添加完成
+[2024-07-15 14:13:51.499] [daily_logger] [info] ID:0x7fcd00001cc0 => 微信小程序流程
+[2024-07-15 14:13:51.528] [daily_logger] [info] ID:0x7fcd00001cc0 / Login Code: 0f3MHl0w36QG833yqi3w3vQCbU1MHl0d / Phone Number Code: ed88f535ab444238f818f5fbd79591365a17fcec7834963b1c5292a8f287fef9
+[2024-07-15 14:13:51.752] [daily_logger] [error] ID:0x7fcd00001cc0 => code非法
+[2024-07-15 14:14:14.100] [daily_logger] [info] ID:0x7fcd000032e0 => 微信小程序流程
+[2024-07-15 14:14:14.129] [daily_logger] [info] ID:0x7fcd000032e0 / Login Code: 0f3PMRll29wCMd4nqmol26QmiV1PMRlz / Phone Number Code: a1214c04826da9708627a74a5de43488709550b32fd17c7a0f6e6f49a23fc5b8
+[2024-07-15 14:14:14.777] [daily_logger] [info] ID:0x7fcd000032e0 => 微信授权通过
+[2024-07-15 14:14:14.845] [daily_logger] [info] ID:0x7fcd000032e0 => 这个账户已经绑定正在试图登入
+[2024-07-15 14:22:37.218] [daily_logger] [info] 日志初始化完成
+[2024-07-15 14:22:37.345] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 14:22:37.345] [daily_logger] [info] Redis初始化完成
+[2024-07-15 14:22:37.345] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 14:22:37.345] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 14:22:37.516] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 14:22:37.516] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 14:22:37.516] [daily_logger] [info] client相关完成加载
+[2024-07-15 14:22:37.516] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 14:22:37.516] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 14:22:39.964] [daily_logger] [info] ID:0x7f0714005af0 => 微信小程序流程
+[2024-07-15 14:22:39.996] [daily_logger] [info] ID:0x7f0714005af0 / Login Code: 0a34hD0w3uaX833tXg4w3b87wp14hD0O / Phone Number Code: eafb1058561a9e4063b20ce19b9bfa61a3ccb69051dd1cb92cc79aa06eb11b41
+[2024-07-15 14:22:40.789] [daily_logger] [info] ID:0x7f0714005af0 => 微信授权通过
+[2024-07-15 14:22:40.853] [daily_logger] [info] ID:0x7f0714005af0 => 这个账户已经绑定正在试图登入
+[2024-07-15 14:32:07.251] [daily_logger] [info] 日志初始化完成
+[2024-07-15 14:32:07.450] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 14:32:07.450] [daily_logger] [info] Redis初始化完成
+[2024-07-15 14:32:07.450] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 14:32:07.450] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 14:32:07.619] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 14:32:07.619] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 14:32:07.619] [daily_logger] [info] client相关完成加载
+[2024-07-15 14:32:07.619] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 14:32:07.619] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 14:32:08.842] [daily_logger] [info] ID:0x7ff830005af0 => 微信小程序流程
+[2024-07-15 14:32:08.878] [daily_logger] [info] ID:0x7ff830005af0 / Login Code: 0b3JFMkl2PzKNd419Nml2Yzru81JFMkv / Phone Number Code: 653e8f7b5ddc73bd3e2a8754ca0e9da7d5c7222b3f41f0039ac013ace9251a6a
+[2024-07-15 14:32:09.463] [daily_logger] [info] ID:0x7ff830005af0 => 微信授权通过
+[2024-07-15 14:32:09.523] [daily_logger] [info] ID:0x7ff830005af0 => 这个账户已经绑定正在试图登入
+[2024-07-15 15:06:46.181] [daily_logger] [info] 日志初始化完成
+[2024-07-15 15:06:46.364] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 15:06:46.364] [daily_logger] [info] Redis初始化完成
+[2024-07-15 15:06:46.364] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 15:06:46.364] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 15:06:46.538] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 15:06:46.538] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 15:06:46.538] [daily_logger] [info] client相关完成加载
+[2024-07-15 15:06:46.538] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 15:06:46.538] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 15:07:07.988] [daily_logger] [info] ID:0x7f1110005af0 => 微信小程序流程
+[2024-07-15 15:07:08.019] [daily_logger] [info] ID:0x7f1110005af0 / Login Code: 0c3Ksz100DxlsS1QUl300bIGrC2Ksz17 / Phone Number Code: 89c98cd2865bdcb53eb7a8b554bb6a7e705673729a00feb5ef27b7c673c2ec3a
+[2024-07-15 15:07:08.758] [daily_logger] [info] ID:0x7f1110005af0 => 微信授权通过
+[2024-07-15 15:07:08.817] [daily_logger] [info] ID:0x7f1110005af0 => 这个账户已经绑定正在试图登入
+[2024-07-15 15:11:26.933] [daily_logger] [info] 日志初始化完成
+[2024-07-15 15:11:27.054] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 15:11:27.054] [daily_logger] [info] Redis初始化完成
+[2024-07-15 15:11:27.054] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 15:11:27.054] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 15:11:27.218] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 15:11:27.218] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 15:11:27.218] [daily_logger] [info] client相关完成加载
+[2024-07-15 15:11:27.218] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 15:11:27.218] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 15:15:41.757] [daily_logger] [info] 日志初始化完成
+[2024-07-15 15:15:41.891] [daily_logger] [info] MySQL初始化完成
+[2024-07-15 15:15:41.891] [daily_logger] [info] Redis初始化完成
+[2024-07-15 15:15:41.891] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-15 15:15:41.891] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-15 15:15:42.059] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-15 15:15:42.059] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-15 15:15:42.059] [daily_logger] [info] client相关完成加载
+[2024-07-15 15:15:42.059] [daily_logger] [info] snowflake初始化完成
+[2024-07-15 15:15:42.059] [daily_logger] [info] 主服务初始化完成
+[2024-07-15 15:15:46.165] [daily_logger] [info] ID:0x7f5a7c005af0 => 刷新access token
+[2024-07-15 15:15:46.334] [daily_logger] [info] ID:0x7f5a7c005af0 => refresh_token: ayb0fn55ued1ddhv
+[2024-07-15 15:15:46.334] [daily_logger] [info] ID:0x7f5a7c005af0刷新access token完成

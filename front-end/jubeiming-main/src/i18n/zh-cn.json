@@ -1,0 +1,85 @@
+{
+  "lang": "中文",
+  "contents": {
+    "dev": {
+      "dev_page": "开发中"
+    },
+    "name": "聚北冥",
+    "record": {
+      "year": "2024",
+      "company": "公司名",
+      "recordNumber": "12345678",
+      "symbol": ["©", "备案号"]
+    },
+    "navbar": ["首页", "订单", "消息", "我的"],
+    "home": [
+      {
+        "session": "店铺",
+        "grid": [
+          "店铺管理",
+          "商品管理",
+          "商品分类",
+          "相册管理",
+          "订单管理",
+          "核销",
+          "会员列表",
+          "会员分组",
+          "统计分析",
+          "汇总分析"
+        ]
+      },
+      {
+        "session": "营销",
+        "grid": [
+          "新客有礼",
+          "支付有礼",
+          "砍价管理",
+          "秒杀管理",
+          "拼团管理",
+          "话术管理",
+          "预约管理",
+          "优惠券"
+        ]
+      }
+    ],
+    "me": {
+      "language": {
+        "content_name": "语言",
+        "cancel": "取消",
+        "confirm": "确定"
+      },
+      "guide": {
+        "content_name": "指南"
+      },
+      "statistics": {
+        "content_name": "数据统计分析"
+      },
+      "distribution": {
+        "content_name": "分销相关"
+      },
+      "setting": {
+        "content_name": "设置"
+      },
+      "logout": "登出账号"
+    },
+    "messages": {
+      "notifications": {
+        "like": "点赞",
+        "reply": "回复",
+        "at_me": "at我",
+        "notification": "通知"
+      },
+      "no_records": "空空如也,暂无聊天记录呢"
+    },
+    "orders": {
+      "session_name": "订单管理",
+      "orders_name": "订单名称",
+      "orders_id": "订单编号",
+      "detail": "查看详情",
+      "status": ["已取消", "待付款", "待发货","已完成"],
+      "order_tip": {
+        "none": "暂时没有订单呢"
+      }
+    }
+  }
+}

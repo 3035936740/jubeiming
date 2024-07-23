@@ -1,0 +1,26 @@
+version: '3.8'
+
+services: 
+  jubeiming-api:
+    build:
+      context: "./jubeiming-restful-api/"
+      dockerfile: "./bin/Dockerfile"
+    ports:
+      - "38765:38765"
+    depends_on:
+      - phone-verification-api
+    volumes:
+      - ./jubeiming-restful-api/bin/:/app
+      
+  phone-verification-api:
+    build: ./phone_verification
+    ports:
+      - "3000:3000"
+    # environment:
+    #   - HasEvnTest=IDK
+    # env_file:
+    #   - .env
+    # depends_on:
+    #   - db
+    volumes:
+      - ./phone_verification/:/app

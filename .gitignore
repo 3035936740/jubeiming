@@ -1,0 +1,8 @@
+important/
+**/.idea
+**/.vs
+**/.vscode
+**/node_modules
+**/mini-jubeiming
+back-end/CPP Dev Library/
+back-end/jubeiming-restful-api/out

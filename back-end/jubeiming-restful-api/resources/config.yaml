@@ -1,0 +1,69 @@
+log:
+  logger-name: "daily_logger"
+  filename: "logs/daily.txt"
+  hour: 2
+  minute: 30
+
+db:
+  mysql:
+    host: "124.222.66.23"
+    port: 3306
+    db:
+      - "ZhenNiuAppSystem"
+      - "Auth"
+    user: "jubeiming"
+    password: "o1WabOnvTMw6nUbjbe6KnaEdlp9t3cp3Ccmc69y1ghQCnI0rVekJFxmaX3ZiWLJE"
+  redis:
+    host: "124.222.66.23"
+    user: "default"
+    port: 6379
+    socket-timeout: 1500 # ms
+    connect-timeout: 1000 # ms
+    password: "vmRmz9wDEFfgKdyCoyXLWDFllKt37NaPG6jHw3UaLuL76DXDiHiXf9JX5qhlE4W9"
+    db: 0
+
+search-engine:
+  meilisearch:
+    url: "http://meili.jubeiming.com/"
+    authorization: "lXQKpcHsnniOKmNbtUHu4Z71HyO6I9twjhT1dnDrEB2ESID9dz1ThBlefMxky9JK"
+
+mq:
+  rabbitmq:
+    host: "124.222.66.23"
+    port: 5672
+    user: "jubeiming"
+    password: "kgjNmdasXPksLnboUViBUqmKYamxWhqpvsNNnSXtfPhfWwlQj3AUwYovHdOoo8M9"
+
+other:
+  wei-chat-app:
+    url: "https://api.weixin.qq.com"
+    appid: "wx94ad0e4960761a41"
+    secret: "b7a49fffabd74b28a85f3842e6bdc38f"
+  sensitive-words: "sensitive_words_lines.txt"
+  clients:
+    web:
+        uuid: "63dd2b08-3e3e-1b33-05fc-2e12aa257cab"
+        secret: "otFN1VCimmChPxzH7Rhp4n6vsS5YUDOTpId0EnfqpgSjo1Lzl6ABu9F6NVH5UESD"
+    wei-chat-app:
+        uuid: "a689820a-4f9e-b6a8-49ec-5ce4382f66a2"
+        secret: "i4TNjnMCDrEP0Bw26F0jDdVPgLidofRXmDpTBNAGApgwgA3yFEjG5mV42SGn98yf"
+  token:
+    refresh-expire: 604800 # 7天
+    access-token: 3600 # 1小时
+  phone-api:
+    url: "http://192.168.0.106:3000"
+    authorization: "3kdvbkelqqo6o3gb2cv7v0muiwruiki4"
+    code-validity: 300 # s
+
+server:
+  generator:
+    uuid:
+      namespace: "00000000-0000-0000-0000-000000000000"
+      twepoch: 1719219088000
+      workerid: 1
+      datacenterid: 1
+  host: "0.0.0.0"
+  concurrency: 0
+  port: 38765
+  resource-path: "public"
+  timeout: 30

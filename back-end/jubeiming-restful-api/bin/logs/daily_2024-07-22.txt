@@ -1,0 +1,65 @@
+[2024-07-22 02:47:23.451] [daily_logger] [info] 日志初始化完成
+[2024-07-22 02:47:23.665] [daily_logger] [info] MySQL初始化完成
+[2024-07-22 02:47:23.665] [daily_logger] [info] Redis初始化完成
+[2024-07-22 02:47:23.665] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-22 02:47:23.665] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-22 02:47:23.859] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-22 02:47:23.859] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-22 02:47:23.860] [daily_logger] [info] client相关完成加载
+[2024-07-22 02:47:23.860] [daily_logger] [info] Token时效相关完成加载
+[2024-07-22 02:47:23.860] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-22 02:47:23.860] [daily_logger] [info] snowflake初始化完成
+[2024-07-22 02:47:23.860] [daily_logger] [info] 主服务初始化完成
+[2024-07-22 02:54:32.958] [daily_logger] [info] 日志初始化完成
+[2024-07-22 02:54:33.104] [daily_logger] [info] MySQL初始化完成
+[2024-07-22 02:54:33.104] [daily_logger] [info] Redis初始化完成
+[2024-07-22 02:54:33.104] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-22 02:54:33.104] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-22 02:54:33.300] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-22 02:54:33.300] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-22 02:54:33.300] [daily_logger] [info] client相关完成加载
+[2024-07-22 02:54:33.300] [daily_logger] [info] Token时效相关完成加载
+[2024-07-22 02:54:33.300] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-22 02:54:33.300] [daily_logger] [info] snowflake初始化完成
+[2024-07-22 02:54:33.300] [daily_logger] [info] 主服务初始化完成
+[2024-07-22 02:54:36.764] [daily_logger] [info] ID: 0x7f7a08006e50 => Phone Number: 19883988084
+[2024-07-22 02:54:36.764] [daily_logger] [info] ID: 0x7f7a08006e50 => Key: verify_code:172.18.0.1:19883988084
+[2024-07-22 02:54:36.766] [daily_logger] [info] ID: 0x7f7a08006e50 => Verify Code: 363520
+[2024-07-22 02:54:37.403] [daily_logger] [info] ID: 0x7f7a08006e50 => Complete -> TTL: 300
+[2024-07-22 03:07:07.441] [daily_logger] [info] 日志初始化完成
+[2024-07-22 03:07:07.601] [daily_logger] [info] MySQL初始化完成
+[2024-07-22 03:07:07.601] [daily_logger] [info] Redis初始化完成
+[2024-07-22 03:07:07.601] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-22 03:07:07.601] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-22 03:07:07.814] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-22 03:07:07.814] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-22 03:07:07.814] [daily_logger] [info] client相关完成加载
+[2024-07-22 03:07:07.814] [daily_logger] [info] Token时效相关完成加载
+[2024-07-22 03:07:07.814] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-22 03:07:07.814] [daily_logger] [info] snowflake初始化完成
+[2024-07-22 03:07:07.814] [daily_logger] [info] 主服务初始化完成
+[2024-07-22 03:07:45.272] [daily_logger] [info] ID: 0x7f8390006e50 => Phone Number: 19883988084
+[2024-07-22 03:07:45.272] [daily_logger] [info] ID: 0x7f8390006e50 => Key: verify_code:172.18.0.1:19883988084
+[2024-07-22 03:07:45.274] [daily_logger] [info] ID: 0x7f8390006e50 => Verify Code: 698737
+[2024-07-22 03:07:45.839] [daily_logger] [info] ID: 0x7f8390006e50 => Complete -> TTL: 300
+[2024-07-22 03:32:24.369] [daily_logger] [info] ID: 0x7f835c001cc0 => Phone Number: 19883988084
+[2024-07-22 03:32:24.369] [daily_logger] [info] ID: 0x7f835c001cc0 => Key: verify_code:172.18.0.1:19883988084
+[2024-07-22 03:32:24.369] [daily_logger] [info] ID: 0x7f835c001cc0 => Verify Code: 657214
+[2024-07-22 03:32:24.869] [daily_logger] [info] ID: 0x7f835c001cc0 => Complete -> TTL: 300
+[2024-07-22 03:32:25.598] [daily_logger] [info] ID: 0x7f835c0032e0 => Phone Number: 19883988084
+[2024-07-22 03:32:25.598] [daily_logger] [info] ID: 0x7f835c0032e0 => Key: verify_code:172.18.0.1:19883988084
+[2024-07-22 03:32:25.598] [daily_logger] [info] ID: 0x7f835c0032e0 => Verify Code: 498704
+[2024-07-22 03:32:25.646] [daily_logger] [warning] ID: 0x7f835c0032e0 => Has Exist -> TTL: 299
+[2024-07-22 03:32:26.455] [daily_logger] [info] ID: 0x7f835c004850 => Phone Number: 19883988084
+[2024-07-22 03:32:26.455] [daily_logger] [info] ID: 0x7f835c004850 => Key: verify_code:172.18.0.1:19883988084
+[2024-07-22 03:32:26.455] [daily_logger] [info] ID: 0x7f835c004850 => Verify Code: 519455
+[2024-07-22 03:32:26.502] [daily_logger] [warning] ID: 0x7f835c004850 => Has Exist -> TTL: 298
+[2024-07-22 03:35:06.508] [daily_logger] [info] ID: 0x7f835c0032e0 => Phone Number: 19883988084
+[2024-07-22 03:35:06.508] [daily_logger] [info] ID: 0x7f835c0032e0 => Key: verify_code:172.18.0.1:19883988084
+[2024-07-22 03:35:06.509] [daily_logger] [info] ID: 0x7f835c0032e0 => Verify Code: 098870
+[2024-07-22 03:35:06.557] [daily_logger] [warning] ID: 0x7f835c0032e0 => Has Exist -> TTL: 138
+[2024-07-22 07:19:07.539] [daily_logger] [info] ID:0x7f835c0032e0 => 刷新access token
+[2024-07-22 07:19:49.733] [daily_logger] [info] ID:0x7f835c004850 => 刷新access token
+[2024-07-22 07:20:03.261] [daily_logger] [info] ID:0x7f835c0032e0 => 刷新access token
+[2024-07-22 07:20:03.391] [daily_logger] [info] ID:0x7f835c0032e0 => refresh_token: 46wws70b653qpjsf
+[2024-07-22 07:20:03.391] [daily_logger] [info] ID:0x7f835c0032e0刷新access token完成

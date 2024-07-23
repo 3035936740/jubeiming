@@ -1,0 +1,16 @@
+FROM ubuntu:22.04
+
+# 更新系统并安装基本工具
+RUN apt-get update
+# 安装编译工具和依赖库
+RUN apt-get install -y gcc openssl
+
+# 设置工作目录
+WORKDIR /app
+
+# 将本地 C++ 代码复制到容器中
+COPY . .
+
+ENV LD_LIBRARY_PATH=/app/lib
+
+CMD ["./jubeiming-api"]

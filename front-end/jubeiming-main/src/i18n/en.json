@@ -1,0 +1,85 @@
+{
+  "lang": "english",
+  "contents": {
+    "dev": {
+      "dev_page": "Under Development"
+    },
+    "name": "Jubeiming",
+    "record": {
+      "year": "2024",
+      "company": "Company",
+      "recordNumber": "12345678",
+      "symbol": ["©", "Record number"]
+    },
+    "navbar": ["Home", "Orders", "Messages", "Profile"],
+    "home": [
+      {
+        "session": "Store",
+        "grid": [
+          "Store Management",
+          "Product Management",
+          "Product Categories",
+          "Album Management",
+          "Order Management",
+          "Verification",
+          "Member List",
+          "Member Groups",
+          "Statistics Analysis",
+          "Summary Analysis"
+        ]
+      },
+      {
+        "session": "Marketing",
+        "grid": [
+          "New Customer Gift",
+          "Payment Gift",
+          "Bargain Management",
+          "Flash Sale Management",
+          "Group Buying Management",
+          "Speech Management",
+          "Appointment Management",
+          "Coupons"
+        ]
+      }
+    ],
+    "me": {
+      "language": {
+        "content_name": "Language",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "guide": {
+        "content_name": "Guide"
+      },
+      "statistics": {
+        "content_name": "Statistics"
+      },
+      "distribution": {
+        "content_name": "Distribution"
+      },
+      "setting": {
+        "content_name": "Settings"
+      },
+      "logout": "Logout"
+    },
+    "messages": {
+      "notifications": {
+        "like": "Like",
+        "reply": "Reply",
+        "at_me": "At",
+        "notification": "Notification"
+      },
+      "no_records": "It's empty here, no chat history yet"
+    },
+    "orders": {
+      "session_name": "Order Management",
+      "orders_name": "Order Name",
+      "orders_id": "Order ID",
+      "detail": "Details",
+      "status": ["Cancelled", "Pending payment", "To be shipped", "Completed"],
+      "order_tip": {
+        "none": "There are currently no orders."
+      }
+    }
+  }
+}

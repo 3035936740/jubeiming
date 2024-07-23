@@ -1,0 +1,29 @@
+采用系统ubuntu22.04
+默认是sudo su
+
+apt install python3
+apt install gcc-12
+apt install postgresql
+apt install nodejs
+apt install npm
+apt install git
+apt install rabbitmq-server
+apt install redis
+apt install libhiredis-dev
+apt install docker
+apt install libcurl4-openssl-dev
+
+openresty安装
+https://openresty.org/cn/linux-packages.html#ubuntu
+
+meilisearch安装
+https://github.com/meilisearch/meilisearch/releases
+放置在
+/home/ubuntu/software/meilisearch
+
+rabbitmq服务器上的操作:
+rabbitmq-plugins enable rabbitmq_management
+
+redis服务器上的操作:
+
+postgresql服务器上的操作:

@@ -1,0 +1,21 @@
+{
+  "name": "phone-verify",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alicloud/credentials": "^2.3.1",
+    "@alicloud/dysmsapi20170525": "^3.0.0",
+    "@alicloud/openapi-client": "^0.4.10",
+    "@alicloud/openapi-util": "^0.3.2",
+    "@alicloud/tea-util": "^1.4.9",
+    "fastify": "^4.28.1"
+  }
+}
