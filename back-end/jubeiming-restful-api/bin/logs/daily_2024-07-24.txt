@@ -1,0 +1,14 @@
+[2024-07-24 03:43:31.580] [daily_logger] [info] 日志初始化完成
+[2024-07-24 03:43:31.789] [daily_logger] [info] MySQL初始化完成
+[2024-07-24 03:43:31.789] [daily_logger] [info] Redis初始化完成
+[2024-07-24 03:43:31.789] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-24 03:43:31.789] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-24 03:43:32.015] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-24 03:43:32.015] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-24 03:43:32.015] [daily_logger] [info] client相关完成加载
+[2024-07-24 03:43:32.015] [daily_logger] [info] Token时效相关完成加载
+[2024-07-24 03:43:32.015] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-24 03:43:32.015] [daily_logger] [info] snowflake初始化完成
+[2024-07-24 03:43:32.015] [daily_logger] [info] 主服务初始化完成
+[2024-07-24 03:47:18.006] [daily_logger] [info] ID:0x7fbe04001cc0 => 刷新access token
+[2024-07-24 03:54:37.668] [daily_logge

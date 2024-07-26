@@ -5,7 +5,7 @@ const config = {
     "SignName": "bingep",
     "TemplateCode": "SMS_468940713",
     "server": {
-        "host": "0.0.0.0",
+        "host": "::",
         "port": 3000,
         "authorization": "3kdvbkelqqo6o3gb2cv7v0muiwruiki4"
     }
