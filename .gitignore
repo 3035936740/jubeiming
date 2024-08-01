@@ -4,5 +4,6 @@ important/
 **/.vscode
 **/node_modules
 **/mini-jubeiming
+**/cmake-build*
 back-end/CPP Dev Library/
 back-end/jubeiming-restful-api/out
