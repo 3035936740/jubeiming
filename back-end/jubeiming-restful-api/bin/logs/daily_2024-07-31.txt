@@ -1,0 +1,136 @@
+[2024-07-31 13:15:59.820] [daily_logger] [info] 日志初始化完成
+[2024-07-31 13:16:00.358] [daily_logger] [info] MySQL初始化完成
+[2024-07-31 13:16:00.358] [daily_logger] [info] Redis初始化完成
+[2024-07-31 13:16:00.358] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-31 13:16:00.358] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-31 13:16:00.731] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-31 13:16:00.731] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-31 13:16:00.731] [daily_logger] [info] client相关完成加载
+[2024-07-31 13:16:00.731] [daily_logger] [info] Token时效相关完成加载
+[2024-07-31 13:16:00.731] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-31 13:16:00.731] [daily_logger] [info] snowflake初始化完成
+[2024-07-31 13:16:00.731] [daily_logger] [info] 主服务初始化完成
+[2024-07-31 14:39:45.218] [daily_logger] [info] 日志初始化完成
+[2024-07-31 14:39:45.352] [daily_logger] [info] MySQL初始化完成
+[2024-07-31 14:39:45.352] [daily_logger] [info] Redis初始化完成
+[2024-07-31 14:39:45.352] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-31 14:39:45.352] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-31 14:39:45.838] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-31 14:39:45.838] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-31 14:39:45.838] [daily_logger] [info] client相关完成加载
+[2024-07-31 14:39:45.838] [daily_logger] [info] Token时效相关完成加载
+[2024-07-31 14:39:45.838] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-31 14:39:45.838] [daily_logger] [info] snowflake初始化完成
+[2024-07-31 14:39:45.838] [daily_logger] [info] 主服务初始化完成
+[2024-07-31 14:39:53.274] [daily_logger] [info] 日志初始化完成
+[2024-07-31 14:39:53.407] [daily_logger] [info] MySQL初始化完成
+[2024-07-31 14:39:53.407] [daily_logger] [info] Redis初始化完成
+[2024-07-31 14:39:53.407] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-31 14:39:53.407] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-31 14:39:54.083] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-31 14:39:54.083] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-31 14:39:54.083] [daily_logger] [info] client相关完成加载
+[2024-07-31 14:39:54.083] [daily_logger] [info] Token时效相关完成加载
+[2024-07-31 14:39:54.083] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-31 14:39:54.083] [daily_logger] [info] snowflake初始化完成
+[2024-07-31 14:39:54.083] [daily_logger] [info] 主服务初始化完成
+[2024-07-31 14:40:02.086] [daily_logger] [info] 日志初始化完成
+[2024-07-31 14:40:02.213] [daily_logger] [info] MySQL初始化完成
+[2024-07-31 14:40:02.214] [daily_logger] [info] Redis初始化完成
+[2024-07-31 14:40:02.214] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-31 14:40:02.214] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-31 14:40:02.671] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-31 14:40:02.671] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-31 14:40:02.671] [daily_logger] [info] client相关完成加载
+[2024-07-31 14:40:02.671] [daily_logger] [info] Token时效相关完成加载
+[2024-07-31 14:40:02.671] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-31 14:40:02.671] [daily_logger] [info] snowflake初始化完成
+[2024-07-31 14:40:02.671] [daily_logger] [info] 主服务初始化完成
+[2024-07-31 14:40:05.264] [daily_logger] [info] ID:0x7f3ad8006f50 => 普通登入流程
+[2024-07-31 14:40:05.295] [daily_logger] [info] ID: 0x7f3ad8006f50 => Phone Number: 19883988084
+[2024-07-31 14:40:05.295] [daily_logger] [info] ID: 0x7f3ad8006f50 => Verification Code: 067708
+[2024-07-31 14:40:05.295] [daily_logger] [info] ID: 0x7f3ad8006f50 => Region Code: +86
+[2024-07-31 14:40:37.552] [daily_logger] [info] ID: 0x7f3aa0001cc0 => Phone Number: 19883988084
+[2024-07-31 14:40:37.552] [daily_logger] [info] ID: 0x7f3aa0001cc0 => Key: verify_code:127.0.0.1:19883988084
+[2024-07-31 14:40:37.552] [daily_logger] [info] ID: 0x7f3aa0001cc0 => Verify Code: 652508
+[2024-07-31 14:40:38.300] [daily_logger] [info] ID: 0x7f3aa0001cc0 => Complete -> TTL: 300
+[2024-07-31 14:41:06.146] [daily_logger] [info] ID:0x7f3aa00032e0 => 普通登入流程
+[2024-07-31 14:41:06.178] [daily_logger] [info] ID: 0x7f3aa00032e0 => Phone Number: 19883988084
+[2024-07-31 14:41:06.178] [daily_logger] [info] ID: 0x7f3aa00032e0 => Verification Code: 652508
+[2024-07-31 14:41:06.178] [daily_logger] [info] ID: 0x7f3aa00032e0 => Region Code: +86
+[2024-07-31 14:41:22.855] [daily_logger] [info] ID:0x7f3aa0004850 => 普通登入流程
+[2024-07-31 14:41:22.889] [daily_logger] [info] ID: 0x7f3aa0004850 => Phone Number: 19883988084
+[2024-07-31 14:41:22.889] [daily_logger] [info] ID: 0x7f3aa0004850 => Verification Code: 652508
+[2024-07-31 14:41:22.889] [daily_logger] [info] ID: 0x7f3aa0004850 => Region Code: +86
+[2024-07-31 14:41:34.059] [daily_logger] [info] ID:0x7f3aa00032e0 => 进行效验
+[2024-07-31 14:41:34.059] [daily_logger] [info] ID:0x7f3aa00032e0 => +86 19883988084 / 652508
+[2024-07-31 14:42:53.786] [daily_logger] [info] ID:0x7f3aa0004850 => 进行效验
+[2024-07-31 14:42:53.786] [daily_logger] [info] ID:0x7f3aa0004850 => +86 19883988084 / 652508
+[2024-07-31 14:42:58.828] [daily_logger] [info] ID:0x7f3aa00032e0 => 普通登入流程
+[2024-07-31 14:42:58.860] [daily_logger] [info] ID: 0x7f3aa00032e0 => Phone Number: 19883988084
+[2024-07-31 14:42:58.860] [daily_logger] [info] ID: 0x7f3aa00032e0 => Verification Code: 652508
+[2024-07-31 14:42:58.860] [daily_logger] [info] ID: 0x7f3aa00032e0 => Region Code: +86
+[2024-07-31 14:43:19.175] [daily_logger] [info] ID:0x7f3aa0004850 => 进行效验
+[2024-07-31 14:43:19.175] [daily_logger] [info] ID:0x7f3aa0004850 => +86 19883988084 / 652508
+[2024-07-31 14:43:31.858] [daily_logger] [info] ID:0x7f3aa00032e0 => 进行效验
+[2024-07-31 14:43:31.858] [daily_logger] [info] ID:0x7f3aa00032e0 => +86 19883988084 / 652508
+[2024-07-31 14:50:28.155] [daily_logger] [info] 日志初始化完成
+[2024-07-31 14:50:28.273] [daily_logger] [info] MySQL初始化完成
+[2024-07-31 14:50:28.274] [daily_logger] [info] Redis初始化完成
+[2024-07-31 14:50:28.274] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-31 14:50:28.274] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-31 14:50:28.515] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-31 14:50:28.515] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-31 14:50:28.515] [daily_logger] [info] client相关完成加载
+[2024-07-31 14:50:28.516] [daily_logger] [info] Token时效相关完成加载
+[2024-07-31 14:50:28.516] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-31 14:50:28.516] [daily_logger] [info] snowflake初始化完成
+[2024-07-31 14:50:28.516] [daily_logger] [info] 主服务初始化完成
+[2024-07-31 14:53:41.225] [daily_logger] [info] ID:0x7f1a90006f50 => 进行效验
+[2024-07-31 14:53:41.225] [daily_logger] [info] ID:0x7f1a90006f50 => +86 19883988084 / 652508
+[2024-07-31 15:00:22.658] [daily_logger] [info] ID: 0x7f1a58001cc0 => Phone Number: 19883988084
+[2024-07-31 15:00:22.658] [daily_logger] [info] ID: 0x7f1a58001cc0 => Key: verify_code:127.0.0.1:19883988084
+[2024-07-31 15:00:22.658] [daily_logger] [info] ID: 0x7f1a58001cc0 => Verify Code: 546674
+[2024-07-31 15:00:23.990] [daily_logger] [info] ID: 0x7f1a58001cc0 => Complete -> TTL: 300
+[2024-07-31 15:00:46.102] [daily_logger] [info] ID:0x7f1a580032e0 => 普通登入流程
+[2024-07-31 15:00:46.131] [daily_logger] [info] ID: 0x7f1a580032e0 => Phone Number: 19883988084
+[2024-07-31 15:00:46.131] [daily_logger] [info] ID: 0x7f1a580032e0 => Verification Code: 546674
+[2024-07-31 15:00:46.131] [daily_logger] [info] ID: 0x7f1a580032e0 => Region Code: +86
+[2024-07-31 15:03:45.993] [daily_logger] [info] ID:0x7f1a58004850 => 进行效验
+[2024-07-31 15:03:45.993] [daily_logger] [info] ID:0x7f1a58004850 => +86 19883988084 / 652508
+[2024-07-31 15:03:48.508] [daily_logger] [info] ID:0x7f1a580032e0 => 进行效验
+[2024-07-31 15:03:48.508] [daily_logger] [info] ID:0x7f1a580032e0 => +86 19883988084 / 6525081
+[2024-07-31 15:22:03.559] [daily_logger] [info] 日志初始化完成
+[2024-07-31 15:22:28.052] [daily_logger] [info] MySQL初始化完成
+[2024-07-31 15:22:28.053] [daily_logger] [info] Redis初始化完成
+[2024-07-31 15:22:28.053] [daily_logger] [info] Meilisearch初始化完成
+[2024-07-31 15:22:28.053] [daily_logger] [info] RabbitMQ初始化完成
+[2024-07-31 15:22:28.249] [daily_logger] [info] 敏感词过滤初始化完成
+[2024-07-31 15:22:28.249] [daily_logger] [info] 微信小程序相关数据读取完成
+[2024-07-31 15:22:28.249] [daily_logger] [info] client相关完成加载
+[2024-07-31 15:22:28.249] [daily_logger] [info] Token时效相关完成加载
+[2024-07-31 15:22:28.249] [daily_logger] [info] 手机验证相关完成加载
+[2024-07-31 15:22:28.249] [daily_logger] [info] snowflake初始化完成
+[2024-07-31 15:22:28.249] [daily_logger] [info] 主服务初始化完成
+[2024-07-31 15:22:31.313] [daily_logger] [info] ID: 0x7f0ed4006f50 => Phone Number: 19883988084
+[2024-07-31 15:22:31.313] [daily_logger] [info] ID: 0x7f0ed4006f50 => Key: verify_code:127.0.0.1:19883988084
+[2024-07-31 15:22:31.313] [daily_logger] [info] ID: 0x7f0ed4006f50 => Verify Code: 389551
+[2024-07-31 15:22:31.823] [daily_logger] [info] ID: 0x7f0ed4006f50 => Complete -> TTL: 300
+[2024-07-31 15:22:38.809] [daily_logger] [info] ID:0x7f0e9c001cc0 => 进行效验
+[2024-07-31 15:22:38.809] [daily_logger] [info] ID:0x7f0e9c001cc0 => +86 19883988084 / 652508
+[2024-07-31 15:23:49.897] [daily_logger] [info] ID: 0x7f0e9c0032e0 => Phone Number: 19883988084
+[2024-07-31 15:23:49.897] [daily_logger] [info] ID: 0x7f0e9c0032e0 => Key: verify_code:172.24.160.1:19883988084
+[2024-07-31 15:23:49.897] [daily_logger] [info] ID: 0x7f0e9c0032e0 => Verify Code: 229346
+[2024-07-31 15:23:49.940] [daily_logger] [warning] ID: 0x7f0e9c0032e0 => Has Exist -> TTL: -2
+[2024-07-31 15:24:02.873] [daily_logger] [info] ID: 0x7f0e9c004850 => Phone Number: 19883988084
+[2024-07-31 15:24:02.873] [daily_logger] [info] ID: 0x7f0e9c004850 => Key: verify_code:172.24.160.1:19883988084
+[2024-07-31 15:24:02.873] [daily_logger] [info] ID: 0x7f0e9c004850 => Verify Code: 592279
+[2024-07-31 15:24:03.205] [daily_logger] [info] ID: 0x7f0e9c004850 => Complete -> TTL: 300
+[2024-07-31 15:24:22.750] [daily_logger] [info] ID:0x7f0e9c0032e0 => 普通登入流程
+[2024-07-31 15:24:22.782] [daily_logger] [info] ID: 0x7f0e9c0032e0 => Phone Number: 19883988084
+[2024-07-31 15:24:22.782] [daily_logger] [info] ID: 0x7f0e9c0032e0 => Verification Code: 592279
+[2024-07-31 15:24:22.782] [daily_logger] [info] ID: 0x7f0e9c0032e0 => Region Code: +86
+[2024-07-31 15:24:22.856] [daily_logger] [info] ID:0x7f0e9c0032e0 => 账户已存在 -> 66405fd9-f3d0-55dc-b445-ab5a423fbe60
+[2024-07-31 15:24:31.307] [daily_logger] [info] ID:0x7f0e9c004850 => 刷新access token
+[2024-07-31 15:24:31.437] [daily_logger] [info] ID:0x7f0e9c004850 => refresh_token: 9u3o6ls26zgdvmci
+[2024-07-31 15:24:31.437] [daily_logger] [info] ID:0x7f0e9c004850刷新access token完成

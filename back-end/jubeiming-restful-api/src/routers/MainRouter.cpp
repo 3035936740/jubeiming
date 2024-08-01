@@ -65,6 +65,33 @@ void jubeiming::router::MainRouter::startRouter(){
         });
         });
 
+    CROW_ROUTE(App, "/me/web").methods(HTTPMethod::Get)([&](const crow::request& request) { return jubeiming::utils::HandleResponseBody([&] {
+        auto accessToken{ request.get_header_value("access_token") };
+
+        if (accessToken.size() == 0) throw utils::HTTPException(401, nlohmann::json{
+                {"status_code", define::code::TokenIsEmptyError},
+                {"message", "access token is empty"}
+                });
+        auto userUUID{ mAuth->getAccessToken(accessToken).at("user_uuid").get<std::string>() };
+        service::sql::WebApp app(mConn);
+        auto webInfos{ app.getWebAppByUUID(userUUID) };
+        if(webInfos.size() == 0) {
+            throw utils::HTTPException(404, nlohmann::json{
+                    {"status_code", define::code::DataEmptyError},
+                    {"message", "user infomation is empty"}
+                });
+        }
+        const auto& webInfo{ webInfos.at(0) };
+
+        nlohmann::json result{
+            {"id", webInfo.ID},
+            {"uuid", webInfo.UserUUID},
+            {"avatar_url", webInfo.AvatarUrl.value_or("")},
+        };
+        return result.dump();
+        });
+        });
+
     CROW_ROUTE(App, "/wei/me").methods(HTTPMethod::Get)([&](const crow::request& request) { return jubeiming::utils::HandleResponseBody([&] {
         auto accessToken{ request.get_header_value("access_token") };
 

@@ -51,7 +51,8 @@ other:
     refresh-expire: 604800 # 7天
     access-token: 3600 # 1小时
   phone-api:
-    url: "http://phone-verification-api:3000"
+    # url: "http://phone-verification-api:3000"
+    url: "192.168.0.106:3000"
     authorization: "3kdvbkelqqo6o3gb2cv7v0muiwruiki4"
     code-validity: 300 # s
 

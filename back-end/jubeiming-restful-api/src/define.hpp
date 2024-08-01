@@ -83,8 +83,15 @@ namespace jubeiming::define {
 			std::optional<std::string> AvatarUrl; // 小程序头像
 		};
 
+        struct WebApp {
+			std::uint64_t ID; // 用户id
+			std::string UserUUID; // 用户uuid
+            std::optional<std::string> AvatarUrl; // 用户头像url
+		};
+
 		BOOST_DESCRIBE_STRUCT(define::sql::user, (), (UserID, UserUUID, UserName, PasswordHash, PhoneNumber, Email, RegistrationDate, UserStatus, UserLevel, UserGrant, Scope))
 		BOOST_DESCRIBE_STRUCT(define::sql::WeiApp, (), (ID, UserUUID, OpenID, UnionID, Nickname, Gender, AvatarUrl))
+		BOOST_DESCRIBE_STRUCT(define::sql::WebApp, (), (ID, UserUUID, AvatarUrl))
 
 		struct client {
 			std::uint64_t ClientID; // id

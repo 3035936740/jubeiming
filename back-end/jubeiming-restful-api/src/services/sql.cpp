@@ -233,3 +233,21 @@ std::vector<define::sql::client> jubeiming::service::sql::Auth::getClientByUUID(
 {
 	return getClient(uuid);
 }
+
+sql::WebApp::WebApp(utils::MySQLConnector &conn) :mConn{ conn } {}
+
+std::vector<define::sql::WebApp> sql::WebApp::getWebAppByUUID(const std::string & uuid) {
+    boost::mysql::statement stmt{ mConn.getDB("ZhenNiuAppSystem")->prepare_statement("SELECT * FROM WebAPP WHERE UserUUID = ? ;") };
+    boost::mysql::static_results<define::sql::WebApp> result;
+    mConn.getDB("ZhenNiuAppSystem")->execute(stmt.bind(uuid), result);
+    std::vector<define::sql::WebApp> webApp;
+    for (const auto& web : result.rows()){
+        webApp.push_back(web);
+    }
+
+    return webApp;
+}
+
+std::vector<define::sql::WebApp> sql::WebApp::addWebApp(const std::string &) {
+    return std::vector<define::sql::WebApp>();
+}

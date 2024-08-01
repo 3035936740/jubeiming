@@ -2,16 +2,13 @@
 #include "AuthRouter.hpp"
 #include "common/exception.hpp"
 #include "common/phone_verify.hpp"
-#include "fmt/core.h"
 #include "crow.h"
 #include "services/sql.hpp"
-#include "curlpp/cURLpp.hpp"
 #include "curlpp/Easy.hpp"
 #include <curlpp/Infos.hpp>
 #include "curlpp/Options.hpp"
 #include <sstream>
 #include <future>
-#include "fmt/core.h"
 
 namespace KEY {
 	constexpr const char* REFRESH_TOKEN{ "refresh_token" };
@@ -37,7 +34,7 @@ nlohmann::json jubeiming::router::AuthRouter::getRefreshToken(std::string_view r
 	std::string refreshTokenKey{ fmt::format("{}:{}:*", KEY::REFRESH_TOKEN, refreshToken) };
 
 	mRedis->keys(refreshTokenKey, std::back_inserter(keys));
-	if (keys.size() == 0) {
+	if (keys.empty()) {
 		throw utils::HTTPException(401, json{
 							{"status_code", define::code::TokenExpireError},
 							{"message", "refresh token expires or doesn't exist"}
@@ -64,7 +61,7 @@ nlohmann::json jubeiming::router::AuthRouter::getAccessToken(std::string_view ac
 	std::string accessTokenKey{ fmt::format("{}:{}:*", KEY::ACCESS_TOKEN, accessToken) };
 
 	mRedis->keys(accessTokenKey, std::back_inserter(keys));
-	if (keys.size() == 0) {
+	if (keys.empty()) {
 		throw utils::HTTPException(401, json{
 							{"status_code", define::code::TokenExpireError},
 							{"message", "access token expires or doesn't exist"}
@@ -103,7 +100,7 @@ void jubeiming::router::AuthRouter::VerifyCodeMethod(const std::string& phoneNum
 	std::vector<std::string> keys;
 
 	mRedis->keys(fmt::format("verify_code:*:{}", phoneNumber), std::back_inserter(keys));
-	if (keys.size() == 0) {
+	if (keys.empty()) {
 		throw utils::HTTPException(401, json{
 							{"status_code", define::code::VerifyNotExistError},
 							{"message", "verification code doesn't exist"}
@@ -113,6 +110,8 @@ void jubeiming::router::AuthRouter::VerifyCodeMethod(const std::string& phoneNum
 	keys.clear();
 
 	std::string phoneVerifyKey{ fmt::format("verify_code:{}:{}", remote_ip, phoneNumber) };
+
+    std::cout << phoneVerifyKey << std::endl;
 
 	auto verifyCodeOpt{ mRedis->get(phoneVerifyKey) };
 
@@ -135,7 +134,7 @@ std::string jubeiming::router::AuthRouter::createRefreshToken(const std::string&
 	std::vector<std::string> keys;
 
 	mRedis->keys(fmt::format("{}:*:{}", KEY::REFRESH_TOKEN, uuid), std::back_inserter(keys));
-	if (keys.size() > 0) {
+	if (!keys.empty()) {
 		for (auto& key : keys) {
 			mRedis->del(key);
 		}
@@ -150,7 +149,7 @@ std::string jubeiming::router::AuthRouter::createRefreshToken(const std::string&
 
 		keys.clear();
 		mRedis->keys(fmt::format("{}:{}:*", KEY::REFRESH_TOKEN, refreshTokenTemp), std::back_inserter(keys));
-		if (keys.size() == 0) {
+		if (keys.empty()) {
 			refreshToken = std::move(refreshTokenTemp);
 			break;
 		}
@@ -172,7 +171,7 @@ std::string jubeiming::router::AuthRouter::createAccessToken(const std::string& 
 	std::vector<std::string> keys;
 
 	mRedis->keys(fmt::format("{}:*:{}", KEY::ACCESS_TOKEN, uuid), std::back_inserter(keys));
-	if (keys.size() > 0) {
+	if (!keys.empty()) {
 		for (auto& key : keys) {
 			mRedis->del(key);
 		}
@@ -188,7 +187,7 @@ std::string jubeiming::router::AuthRouter::createAccessToken(const std::string& 
 
 		keys.clear();
 		mRedis->keys(fmt::format("{}:{}:*", KEY::ACCESS_TOKEN, accessTokenTemp), std::back_inserter(keys));
-		if (keys.size() == 0) {
+		if (keys.empty()) {
 			accessToken = std::move(accessTokenTemp);
 			break;
 		}
@@ -293,7 +292,7 @@ void jubeiming::router::AuthRouter::startRouter()
 			std::future<json> getLoginRecord{ std::async(std::launch::async, [&] {
 				std::list<std::string> header;
 				std::ostringstream stream;
-				header.push_back("Content-Type: application/json");
+				header.emplace_back("Content-Type: application/json");
 				curlpp::Easy request;
 				request.setOpt<curlpp::options::HttpHeader>(header);
 				// Set the URL.
@@ -327,7 +326,7 @@ void jubeiming::router::AuthRouter::startRouter()
 			std::future<json> getPhoneNumberRecord{ std::async(std::launch::deferred,[&] {
 				std::list<std::string> header;
 				std::ostringstream stream;
-				header.push_back("Content-Type: application/json");
+				header.emplace_back("Content-Type: application/json");
 				curlpp::Easy request;
 				request.setOpt<curlpp::options::HttpHeader>(header);
 				// Set the URL.
@@ -363,7 +362,7 @@ void jubeiming::router::AuthRouter::startRouter()
 					{"access_token", accessToken}
 					}));
 				request.setOpt<curlpp::options::SslEngineDefault>({});
-				request.setOpt<curlpp::options::PostFields>("{\"code\": \"" + phoneNumberCode + "\"}");
+				request.setOpt<curlpp::options::PostFields>(R"({"code": ")" + phoneNumberCode + "\"}");
 				request.setOpt<curlpp::options::WriteStream>(&stream);
 				request.perform();
 				httpCode = curlpp::infos::ResponseCode::get(request);
@@ -593,12 +592,12 @@ void jubeiming::router::AuthRouter::startRouter()
 
 			// IP verify
 			mRedis->keys(fmt::format("verify_code:{}:*", remote_ip), std::back_inserter(keys));
-			if (keys.size() != 0) {
+			if (!keys.empty()) {
 				exist_record = true;
 			}
 			keys.clear();
 			mRedis->keys(fmt::format("verify_code:*:{}", phoneNumber), std::back_inserter(keys));
-			if (keys.size() != 0) {
+			if (!keys.empty()) {
 				exist_record = true;
 			}
 			keys.clear();
@@ -654,4 +653,4 @@ void jubeiming::router::AuthRouter::startRouter()
 			return "ok";
 			});
 		});
-};
+}

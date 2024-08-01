@@ -1,0 +1,514 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/project/cxx/jubeiming/back-end/jubeiming-restful-api/bin/jubeiming-api"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/usr/local/lib/cmake/Poco/PocoUtilTargets.cmake",
+			"/usr/local/lib/cmake/Poco/PocoUtilConfig.cmake",
+			"/usr/local/lib/cmake/Poco/PocoConfig.cmake",
+			"/usr/local/lib/cmake/Poco/PocoFoundationTargets.cmake",
+			"/usr/local/lib/cmake/Poco/PocoFoundationConfig.cmake",
+			"/root/.cache/JetBrains/RemoteDev/dist/69f6ce9329a28_CLion-233.11799.171/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 29,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 8
+			},
+			{
+				"file" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 12
+			},
+			{
+				"file" : 5,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 8,
+				"parent" : 14
+			},
+			{
+				"file" : 4,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 56,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ASIO_STANDALONE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_CHARCONV_DYN_LINK"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_CHARCONV_NO_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_SYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_SYSTEM_NO_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "POCO_HAVE_FD_EPOLL"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "POCO_OS_FAMILY_UNIX"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "XML_DTD"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "YAML_CPP_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_XOPEN_SOURCE=500"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/project/cxx/jubeiming/back-end/jubeiming-restful-api/3rdparty/snowflake-cpp/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/project/cxx/jubeiming/back-end/jubeiming-restful-api/3rdparty/bcrypt-cpp/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/project/cxx/jubeiming/back-end/jubeiming-restful-api/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4,
+					4,
+					4
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"id" : "jubeiming-api::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/project/cxx/jubeiming/back-end/jubeiming-restful-api/3rdparty/bcrypt-cpp/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-L/usr/local/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/project/cxx/jubeiming/back-end/jubeiming-restful-api/3rdparty/bcrypt-cpp/lib:/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/lib/libfmt.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/lib/libyaml-cpp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/lib/libspdlog.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/lib/libboost_charconv.so.1.85.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/lib/libboost_system.so.1.85.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libssl.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bstatic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lboost_cobalt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bdynamic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/lib/libPocoUtild.so.94",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libhiredis.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/local/lib/libredis++.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcurl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lcurlpp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bstatic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lbcrypt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bdynamic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/usr/local/lib/libPocoXMLd.so.94",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/usr/local/lib/libPocoJSONd.so.94",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/usr/local/lib/libPocoFoundationd.so.94",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "jubeiming-api",
+	"nameOnDisk" : "jubeiming-api",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "src/common/WXBizDataCrypt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "src/common/exception.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "src/common/log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "src/common/sensitive_words.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "src/common/utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "src/routers/AuthRouter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "src/routers/MainRouter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "src/services/sql.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

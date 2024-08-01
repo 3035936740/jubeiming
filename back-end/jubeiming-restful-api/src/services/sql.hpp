@@ -54,6 +54,16 @@ namespace jubeiming::service::sql {
 		std::vector<define::sql::client> getClientByID(std::int64_t);
 		std::vector<define::sql::client> getClientByUUID(const std::string&);
 	};
+
+    class WebApp {
+    private:
+        utils::MySQLConnector& mConn;
+    public:
+        WebApp(utils::MySQLConnector& conn);
+
+        std::vector<define::sql::WebApp> getWebAppByUUID(const std::string&);
+        std::vector<define::sql::WebApp> addWebApp(const std::string&);
+    };
 }
 
 #endif // JUBEIMING_SQL_HPP
